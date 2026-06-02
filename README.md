@@ -13,7 +13,7 @@ The utility utilizes a custom binary format characterized by a specific Magic Nu
 ## Installation
 
 ### Prerequisites
-To build and run this project, you will need a C compiler such as `gcc`. The utility is designed for Unix-like operating systems (e.g., Linux Mint, Ubuntu, macOS).
+To build and run this project, you will need a C compiler such as `gcc`.
 
 ### Step-by-Step Build Instructions
 
@@ -60,9 +60,9 @@ The Archiver Utility operates via command-line flags. The general syntax is:
   ```bash
   ./archiver -x <archive_name> <file_to_extract>
   ```
-* **Delete a file from the archive:**
+* **Delete a file or more from the archive:**
   ```bash
-  ./archiver -d <archive_name> <file_to_remove>
+  ./archiver -d <archive_name> <file1_to_remove> [file2_to_remove ...]
   ```
 * **Replace an existing file with a new local file:**
   ```bash
