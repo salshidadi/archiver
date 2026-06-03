@@ -6,6 +6,8 @@ The Archiver Utility is a lightweight, low-level command-line tool written in C 
 
 The utility utilizes a custom binary format characterized by a specific Magic Number (`0x41524348`) and versioning control, ensuring data integrity when managing file payloads and structure padding.
 
+![Icon](docs/icon.png)
+
 **(c) 2026 Team x86. All rights reserved.**
 
 ---
